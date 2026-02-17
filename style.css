@@ -21,7 +21,7 @@ body {
     /* Front first page */
     .hero {
     height: 100vh;
-    background: url('proj1images/greenlake.jpg') center/cover no-repeat;
+    background: url('greenlake.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@ body {
     
     
     .kathmandu {
-        background: url('proj1images/streets.jpg') center/cover no-repeat;
+        background: url('streets.jpg') center/cover no-repeat;
     color: white;
     }
     
@@ -56,7 +56,7 @@ body {
     
     
     .lakes {
-        background: url('proj1images/lakesmirror.jpg') center/cover no-repeat;        }
+        background: url('lakesmirror.jpg') center/cover no-repeat;        }
         
         
         .postcard {
@@ -71,7 +71,7 @@ body {
         
         
         .reflection {
-            background: url('proj1images/ground.jpg');color: white;}
+            background: url('ground.jpg');color: white;}
         
         
         footer {
