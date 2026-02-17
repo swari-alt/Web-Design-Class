@@ -18,7 +18,7 @@ body {
     }
     
     
-    /* HERO SECTION */
+    /* Front first page */
     .hero {
     height: 100vh;
     background: url('proj1images/greenlake.jpg') center/cover no-repeat;
@@ -42,7 +42,6 @@ body {
     }
     
     
-    /* KATHMANDU */
     .kathmandu {
         background: url('proj1images/streets.jpg') center/cover no-repeat;
     color: white;
@@ -56,7 +55,6 @@ body {
     }
     
     
-    /* LAKES */
     .lakes {
         background: url('proj1images/lakesmirror.jpg') center/cover no-repeat;        }
         
@@ -72,12 +70,10 @@ body {
         }
         
         
-        /* REFLECTION */
         .reflection {
             background: url('proj1images/ground.jpg');color: white;}
         
         
-        /* FOOTER */
         footer {
         background: #ffcae3;
         color: rgb(77, 48, 13);
