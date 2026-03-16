@@ -1,90 +1,62 @@
-
-body {
-    margin: 0;
-    background-color: #ffc0cb; /* baby pink */
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
-    overflow-x: hidden;
-}
-
-
-.panel {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
-}
-
-h1 {
-    font-size: 3rem;
-    font-weight: 300;
-    transition: all 0.4s ease;
-}
-
-/* 🌞 SUN GLOW ANIMATION */
-
-.sun {
-    animation: glow 2s infinite alternate;
-}
-
-@keyframes glow {
-    from {
-        text-shadow: 0 0 5px #fff,
-                     0 0 10px #fff,
-                     0 0 20px #ffeb3b,
-                     0 0 30px #ffeb3b;
+body{
+    background-color:#bde7ff;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    margin:0;
+    padding:0;
     }
-    to {
-        text-shadow: 0 0 20px #fff,
-                     0 0 30px #ffeb3b,
-                     0 0 40px #ffeb3b,
-                     0 0 60px #ffeb3b;
+    
+    .container{
+    margin-top:80px;
     }
-}
+    
+    #dough{
+    width:200px;
+    cursor:pointer;
+    transition:0.4s;
+    }
+    
+    @media (min-width:600px){
+    
+    #dough{
+    width:300px;
+    }
+    
+    body{
+    background-color:#a8e0ff;
+    }
+    
+    }
+    
+
+    @media (min-width:1000px){
+    
+    #dough{
+    width:450px;
+    }
+    
+    body{
+    background-color:#8fd6ff;
+    }
+    
+    }
 
 
-.hover-fall {
-    display: inline-block;
-    cursor: pointer;
-    transition: transform 0.6s ease, opacity 0.6s ease;
-    border-bottom: 1px dashed white; /* visual cue */
-}
-
-.hover-fall:hover {
-    transform: translateY(200px);
-    opacity: 0;
-}
+@media (min-width:600px){
+    #dough{
+    content:url("images/dough-growing.png");
+    }
+    }
+    
 
 
-.dark-word {
-    transition: color 0.5s ease;
-    cursor: pointer;
-    border-bottom: 1px dashed white;
-}
-
-.dark-word:hover {
-    color: black;
-}
 
 
-.mind {
-    display: inline-block;
-    transition: transform 0.4s ease;
-    cursor: pointer;
-}
-
-.mind:hover {
-    transform: scale(1.6);
-}
 
 
-.fade-line {
-    transition: opacity 0.6s ease;
-    cursor: pointer;
-}
-
-.fade-line:hover {
-    opacity: 0.3;
-}
+    /* final stage */
+    @media (min-width:1000px){
+    #dough{
+    content:url("images/sourdough.png");
+    }
+    }
