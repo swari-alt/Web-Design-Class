@@ -1,0 +1,62 @@
+body{
+    background-color:#bde7ff;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    margin:0;
+    padding:0;
+    }
+    
+    .container{
+    margin-top:80px;
+    }
+    
+    #dough{
+    width:200px;
+    cursor:pointer;
+    transition:0.4s;
+    }
+    
+    @media (min-width:600px){
+    
+    #dough{
+    width:300px;
+    }
+    
+    body{
+    background-color:#a8e0ff;
+    }
+    
+    }
+    
+
+    @media (min-width:1000px){
+    
+    #dough{
+    width:450px;
+    }
+    
+    body{
+    background-color:#8fd6ff;
+    }
+    
+    }
+
+
+@media (min-width:600px){
+    #dough{
+    content:url("images/dough-growing.png");
+    }
+    }
+    
+
+
+
+
+
+
+    /* final stage */
+    @media (min-width:1000px){
+    #dough{
+    content:url("images/sourdough.png");
+    }
+    }
