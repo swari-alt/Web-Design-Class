@@ -1,0 +1,91 @@
+.title {
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 48px;
+  margin: 20px 0;
+  color: black;
+
+  /* font doodle vibe */
+  display: inline-block;
+  padding: 10px 20px;
+  border: 3px dashed black;
+  background: white;
+  transform: rotate(-2deg);
+  box-shadow: 3px 3px 0 black;
+}
+
+body {
+  margin: 0;
+  background: #F4C2C2;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-family: 'Patrick Hand', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.scene {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  padding: 20px;
+}
+
+.scene img.main {
+  width: 500px;
+  max-width: 85%;
+  height: auto;
+  background: white;
+  padding: 10px;
+
+  /* doodle / scrapbook feel */
+  border: 3px dashed black;
+  transform: rotate(-1deg);
+  box-shadow: 3px 3px 0px black;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-style: italic;
+  color: black;
+}
+
+.products {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products img {
+  width: 100px;
+  height: auto;
+  background: white;
+  padding: 5px;
+
+  transform: rotate(2deg);
+  box-shadow: 2px 2px 0 black;
+  transition: transform 0.2s ease;
+}
+
+.products img:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
+
+.scene:nth-child(even) .main {
+  transform: rotate(1deg);
+}
+
+.products img:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
